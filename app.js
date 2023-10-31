@@ -1,11 +1,11 @@
 // Get the user's name.
-const String name = prompt("What is your name?");
+const userName = prompt("What is your name?");
 
 // Welcome the user to the game.
 alert(`Welcome to the About Me guessing game, ${name}!`);
 
 // Ask the user five yes or no questions about you.
-const String[] questions = {
+const questions = {
   "Did I work for the Navy?",
   "Do I have a degree in computer science from Ronald Mcdonald?",
   "Do I have a PHD degree from The School Of Hard Knocks?",
@@ -108,3 +108,4 @@ if (Arrays.asList(possibleAnswers).contains(userGuess)) {
 
 // Display the user's final score.
 alert(`Your final score is: ${correctAnswers}/7`);
+alert(`Great job! ${userName}`);
